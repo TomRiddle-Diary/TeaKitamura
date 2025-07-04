@@ -267,6 +267,7 @@ nav {
     justify-content: center;
     gap: 20px;
     font-size: var(--section-text);
+    font-weight: 500;
 }
 .event-item img {
     width: 300px;
