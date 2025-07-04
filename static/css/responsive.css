@@ -1,0 +1,121 @@
+@media (max-width: 768px) {
+    /* General */
+    section {
+        padding: 30px 10px;
+    }
+    .section-title {
+        font-size: 2.7rem;
+    }
+    /* Navigation */
+    .hamburger {
+        display: flex;
+    }
+    .menu {
+        display: none;
+        flex-direction: column;
+        background: var(--main-green);
+        position: absolute;
+        opacity: 0.9;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        padding: 20px 0;
+    }
+    .menu.active {
+        display: flex;
+    }
+    .english {
+        display: block;
+    }
+    
+    .contacts {
+        display: none;
+    }
+    .divider {
+        display: none;
+    }
+    .logo img {
+        width: 60px;
+        height: auto;
+    }
+    .languages {
+        display: none;
+    }
+
+
+
+    /* Hero */
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .hero-img {
+        max-width: 100%;
+        height: auto;
+    }
+    .company-name {
+        font-size: 3.0rem;
+    }
+    .hero-title {
+        font-size: 4.0rem;
+    }
+
+    /* About */
+    .about-container {
+        gap: 30px;
+        padding: 0;
+    }
+    .about-text {
+        font-size: 1.4rem;
+    }
+    
+    /* History and Organic */
+    .history-organic-container {
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 40px;
+    }
+    .history, .organic {
+        max-width: 100%;
+        height: auto;
+        gap: 20px;
+    }
+    .history img, .organic img {
+        max-width: 100%;
+        height: auto;
+    }
+    .history h3, .organic h3 {
+        font-size: 2.5rem;
+    }
+    .history button, .organic button, .about-button {
+        font-size: 2.0rem;
+    }
+
+    /* Event Info */
+    .event-title {
+        margin-top: 20px;
+    }
+    .event-text {
+        font-size: 1.4rem;
+        padding: 20px 0;
+    }
+    .event-item img {
+        width: 100%;
+    }
+    .event-contents {
+        gap: 25px;
+    }
+
+    /* Footer */
+    .footer-contents p{
+        font-size: 2.5rem;
+    }
+    .footer-contents {
+        gap: 20px;
+    }
+    .copyright {
+        font-size: 1.4rem;
+    }
+}
