@@ -27,6 +27,8 @@
     }
     .english {
         display: block;
+        color: white;
+
     }
     
     .contacts {
@@ -73,7 +75,7 @@
     .history-organic-container {
         flex-direction: column;
         margin-top: 20px;
-        gap: 40px;
+        gap: 20px;
     }
     .history, .organic {
         max-width: 100%;
@@ -87,7 +89,7 @@
     .history h3, .organic h3 {
         font-size: 2.5rem;
     }
-    .history button, .organic button, .about-button {
+    .history button, .organic button, .about-button, .footer-button {
         font-size: 2.0rem;
     }
 
@@ -98,6 +100,11 @@
     .event-text {
         font-size: 1.4rem;
         padding: 20px 0;
+    }
+    .event-item {
+        width: 45%;
+        margin: 0 auto;
+        font-size: 1.8rem
     }
     .event-item img {
         width: 100%;
@@ -115,5 +122,32 @@
     }
     .copyright {
         font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .company-name {
+        font-size: 2.5rem;
+    }
+    .hero-title {
+        font-size: 3.2rem;
+    }
+    .about-text {
+        font-size: 1.2rem;
+    }
+    .history button, .organic button, .about-button{
+        font-size: 1.5rem;
+    }
+    .section-title {
+        font-size: 2.4rem;
+    }
+    .history h3, .organic h3 {
+        font-size: 2.4rem;
+    }
+    .event-item {
+        font-size: 1.5rem;
+    }
+    .footer-contents p {
+        font-size: 2.0rem;
     }
 }
