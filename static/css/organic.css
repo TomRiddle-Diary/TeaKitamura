@@ -1,0 +1,89 @@
+/* General */
+.banner {
+    background-image: url('/static/images/about.png');
+    background-size: cover;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2.5rem;
+}
+
+/* Organic */
+.organic-page {
+    background-color: var(--beige-thin);
+    padding: 40px 0;
+}
+.organic-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+.organic-content {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.organic-content img {
+    max-width: 45%;
+    height: auto;
+}
+.organic-content p {
+    font-size: var(--section-text-small);
+}
+.sgs {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    gap: 20px;
+}
+.sgs li {
+    list-style: none;
+    font-size: 2.0rem;
+}
+.sgs li a {
+        color: var(--dark-green);
+}
+.sgs li a:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .organic-page {
+        padding: 20px 0;
+    }   
+    .organic-container {
+        gap: 20px;
+    }
+    .organic-content img {
+        max-width: 100%;
+    }
+    .organic-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .organic-content img {
+        max-width: 100%;
+        order: 1;
+    }
+    .organic-content p {
+        font-size: 1.5rem;
+    }
+    .sgs li {
+        font-size: 1.5rem
+    }
+    .banner {
+        height: 75px;
+        font-size: 2.0rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .organic-content p {
+        font-size: 1.2rem;
+    }
+}

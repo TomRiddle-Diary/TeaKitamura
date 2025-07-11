@@ -1,93 +1,88 @@
 <!DOCTYPE html>
 <html lang="jp">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/static/css/index.css"> 
-    <link rel="stylesheet" href="/static/css/responsive.css">
-    <link rel="stylesheet" href="/static/css/q&a_contact.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/8036d0d404.js" crossorigin="anonymous"></script>
-    <script src="/static/js/main.js"></script>
-    <title>北村製茶Q&A</title>
-</head>
-<body>
-    <!-- Navigation -->
-    <nav>
-        <div class="container">
-            <div class="top-nav">
-                <button class="hamburger" aria-label="メニュー" aria-expanded="false">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/static/css/index.css"> 
+        <link rel="stylesheet" href="/static/css/responsive.css">
+        <link rel="stylesheet" href="/static/css/q&a_contact.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/8036d0d404.js" crossorigin="anonymous"></script>
+        <script src="/static/js/main.js"></script>
+        <title>北村製茶|Q&A</title>
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav>
+            <div class="container">
+                <div class="top-nav">
+                    <button class="hamburger" aria-label="メニュー" aria-expanded="false">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div class="contacts">
+                        <div class="contact">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>0956-63-2707</p>
+                        </div>
+                    
+                        <div class="contact">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>c114@nifty.com</p>
+                        </div>
+                    </div>
+                    <div class="logo">
+                        <a href="/">
+                            <img src="/static/images/北村製茶ロゴ.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="languages">
+                        <a href="https://www.instagram.com/kitamura_seicha/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#">English</a>
+                    </div>
+                    <a href="#" class="english">En</a>
+                </div>
+                <div class="divider"></div>
+                <ul class="menu">
+                    <li class="nav-links distinct"><a href="#">About</a></li>
+                    <li class="nav-links"><a href="#">歴史</a></li>
+                    <li class="nav-links"><a href="/organic/index.html">有機栽培</a></li>
+                    <li class="nav-links"><a href="/q&a/index.html">Q&A</a></li>
+                    <li class="nav-links"><a href="/contact/index.html">お問い合わせ</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="banner">
+            <h1>Q&A</h1>
+        </section>
+
+        <!-- Questions -->
+        <section class="questions">
+            <div class="container question-container">
+                <div class="question">
+                    <h2>Q1:  有機栽培はいつから？</h2>
+                    <p>A1: 昭和44年、今から55年前になります。</p>
+                </div>
+                <div class="question">
+                    <h2>Q2: 苦労や経験を教えてください？</h2>
+                    <p>A2: 八年間害虫にやられ、収穫できなかったことがあります。</p>
+                </div>
+            </div>
+
+            <div class="indicator">
+                <p>ご質問はこちら↓</p>
+                <button class="footer-button">
+                        <a href="/contact/index.html" class="footer-links">
+                            <i class="fa-solid fa-envelope"></i>
+                            お問い合わせ
+                        </a>
                 </button>
-                <div class="contacts">
-                    <div class="contact">
-                        <i class="fa-solid fa-phone"></i>
-                        <p>0956-63-2707</p>
-                    </div>
-                
-                    <div class="contact">
-                        <i class="fa-solid fa-envelope"></i>
-                        <p>c114@nifty.com</p>
-                    </div>
-                </div>
-                <div class="logo">
-                    <a href="/">
-                        <img src="/static/images/logo.png" alt="logo">
-                    </a>
-                </div>
-                <div class="languages">
-                    <a href="https://www.instagram.com/kitamura_seicha/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#">English</a>
-                </div>
-                <a href="#" class="english">En</a>
             </div>
-            <div class="divider"></div>
-            <ul class="menu">
-                <li class="nav-links distinct"><a href="#">About</a></li>
-                <li class="nav-links"><a href="#">歴史</a></li>
-                <li class="nav-links"><a href="#">有機栽培</a></li>
-                <li class="nav-links"><a href="/q&a/index.html">Q&A</a></li>
-                <li class="nav-links"><a href="/contact/index.html">お問い合わせ</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <section class="banner">
-        <h1>Q&A</h1>
-    </section>
-
-    <!-- Questions -->
-    <section class="questions">
-        <div class="container question-container">
-            <div class="question">
-                <h2>Q1:  有機栽培はいつから？</h2>
-                <p>A1: 昭和44年、今から55年前になります。</p>
-            </div>
-            <div class="question">
-                <h2>Q2: 苦労や経験を教えてください？</h2>
-                <p>A2: 八年間害虫にやられ、収穫できなかったことがあります。</p>
-            </div>
-        </div>
-
-        <div class="indicator">
-            <p>ご質問はこちら↓</p>
-            <button class="footer-button">
-                    <a href="/contact/index.html" class="footer-links">
-                        <i class="fa-solid fa-envelope"></i>
-                        お問い合わせ
-                    </a>
-            </button>
-        </div>
-    </section>
-
-
-
-
-
-
-    <p class="copyright">&copy;北村製茶 2025 All Rights Reserved</p>
-</body>
+        </section>
+        <p class="copyright">&copy;北村製茶 2025 All Rights Reserved</p>
+    </body>
+</html>
