@@ -1,0 +1,69 @@
+.about-links {
+    background-color: #F2E8C2;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 25px;
+}
+.about-links ul {
+    display: flex;
+    justify-content: space-around;
+}
+.about-links ul li::marker {
+    color: #38B000;
+}
+.about-links ul li a {
+    text-decoration: none;
+    color: black;
+}
+.about-links ul li:hover::marker {
+    color: red;
+}
+.about-links ul li:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    opacity: 0.8;
+}
+
+
+.about-page {
+    background-color: #FBF8EC;
+}
+.about-section-title {
+    font-size: 3.0rem;
+    padding-bottom: 40px;
+}
+.greeding {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+.greeding img {
+    width: 350px;
+    height: auto;
+    border-radius: 30px;
+}
+.greeding-names {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.greeding-names h3 {
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+.greeding-names h2 {
+    font-size: 3.5rem;
+}
+.greeding-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+}
+.greeding-content p {
+    font-size: 1.8rem;
+}
+.company-info {
+    margin-top: 40px;
+}
