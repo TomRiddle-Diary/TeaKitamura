@@ -67,3 +67,50 @@
 .company-info {
     margin-top: 40px;
 }
+
+@media (max-width: 768px) {
+    .about-links {
+        font-size: 1.6rem;
+        padding: 15px;
+    }
+    .about-section-title {
+        font-size: 2.0rem;
+        padding-bottom: 20px;
+    }
+    .greeding {
+        gap: 40px;
+    }
+    .about-section-title {
+    font-size: 2.0rem;
+    }
+    .greeding-names h3 {
+    font-size: 1.2rem;
+    }
+    .greeding-names h2 {
+        font-size: 2.0rem;
+    }
+    .greeding-content p {
+    font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .greeding-content p {
+    font-size: 0.9rem;
+    }
+    .greeding img {
+        width: 150px;
+    }
+}
+
+@media (max-width: 350px) {
+    .about-links {
+        font-size: 1.4rem;
+    }
+    .greeding img {
+        width: 130px;
+    }
+    .greeding-content p {
+    font-size: 0.7rem;
+    }
+}
