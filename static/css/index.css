@@ -109,11 +109,6 @@ nav {
     text-decoration: none;
     color: white;
 }
-.distinct {
-    background-color: var(--dark-green);
-    border-radius: 30px;
-    box-shadow: 2 4px 4px rgba(0, 0, 0, 0.2);
-}
 .nav-links:hover {
     background-color: var(--dark-green);
     border-radius: 30px;
